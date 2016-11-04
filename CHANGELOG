@@ -1,0 +1,11 @@
+1.1.0
+------------------------------------------------------------------------------
+* First working release
+* Adds `README.md`
+* Adds:
+- Removes trailing commas from function calls (via [babel-plugin-syntax-trailing-function-commas](https://www.npmjs.com/package/babel-plugin-syntax-trailing-function-commas))
+- CommonJS import/export module syntax ([babel-plugin-transform-es2015-modules-commonjs](https://www.npmjs.com/package/babel-plugin-transform-es2015-modules-commonjs))
+
+1.0.0
+------------------------------------------------------------------------------
+* Initial publish to NPM (to reserve the package name)
