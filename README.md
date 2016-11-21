@@ -17,6 +17,7 @@ The end result is nearly always a faster build and script execution time.
 * Removes trailing commas from function calls (via [babel-plugin-syntax-trailing-function-commas](https://www.npmjs.com/package/babel-plugin-syntax-trailing-function-commas))
 * CommonJS import/export module syntax ([babel-plugin-transform-es2015-modules-commonjs](https://www.npmjs.com/package/babel-plugin-transform-es2015-modules-commonjs))
 * ES7 class properties ([babel-plugin-transform-class-properties](https://www.npmjs.com/package/babel-plugin-transform-class-properties))
+* Object rest spread ([babel-plugin-transform-object-rest-spread](https://www.npmjs.com/package/babel-plugin-transform-object-rest-spread))
 * Async/await **syntax**. Note: This is *syntax recognition only*. It prevents babel from complaining when it encounters unfamiliar 'async' or 'await' keywords in your code. This does **not** transpile async/await into working functions. Instead, use the `--harmony-async-await` flag on Node start-up.
 
 ## Usage instructions
